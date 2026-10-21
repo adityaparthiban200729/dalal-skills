@@ -1,6 +1,6 @@
 # Dalal Skills - Indian market pack (adapted from trader-skill)
 
-11 analysis-only skills for NSE/BSE, adapted for India from
+11 skills for NSE/BSE, adapted for India from
 github.com/Jakeschincariol/trader-skill (MIT). Original US data sources
 (SEC EDGAR, Congress PTRs, NYSE calendar) were swapped for free public
 Indian sources verified working on 21 Oct 2026:
@@ -12,10 +12,14 @@ Indian sources verified working on 21 Oct 2026:
 - Google News RSS + Moneycontrol RSS - headlines
 - AMFI NAVAll + AMC monthly portfolio sheets - mutual fund data
 
-SAFETY: every skill is analysis only. No skill can place an order,
-connect to a broker, or move money. Any order is written as a paper
-ticket for the user to place by hand in his own app. Nothing here is
-financial advice; no outcome is promised.
+SAFETY: every skill except dalal-ticket is analysis only - it cannot
+place an order, connect to a broker, or move money. dalal-ticket
+places LIVE orders on the user's own INDstocks account, and only when
+ALL of these hold: dalal-risk said PASS, the round-trip fee math
+clears, and the user confirmed the exact stock, quantity, price and
+total in writing. Login OTP is approved by the user on his own phone.
+Cash segment and limit orders only; no F&O, no borrowed money. Nothing
+here is financial advice; no outcome is promised.
 
 Install (Cue): Settings > Skills > Add > Import from GitHub, one folder
 per import. Or paste a single SKILL.md into a Cue chat to run it as a mode.
