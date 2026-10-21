@@ -34,5 +34,6 @@ advice.
 
 A short verdict table: each check PASS/BLOCK with the number that
 decided it. On any BLOCK, stop and explain in one line. Only orders
-with all PASS may go to dalal-ticket - and even then the user places it
-by hand, after their explicit yes.
+with all PASS may go to dalal-ticket, which places the order live on
+the user's INDstocks account - and only after the user's explicit yes
+to the exact stock, quantity, price and total.
