@@ -16,7 +16,8 @@ description: >-
 Watches the numbers so the user does not have to. An alert is
 information, never an order: when a stop rings, nothing is sold. If the
 user wants to act, the normal path runs (dalal-budget, dalal-risk, their
-yes, then they place the order by hand in their own app). Not financial
+yes, then dalal-ticket places it live on their INDstocks account).
+Not financial
 advice.
 
 ## Quotes (free, delayed, verified 21 Oct 2026)
