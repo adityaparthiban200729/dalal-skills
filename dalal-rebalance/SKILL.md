@@ -3,16 +3,16 @@ name: dalal-rebalance
 description: >-
   Rebalancer for a small Indian portfolio. Compares current weights to
   the user's target weights and lists what to trim or add when drift
-  passes the band, always as suggestions the user must approve and place
-  by hand. Use when the user says "rebalance", "my portfolio drifted",
+  passes the band, always as suggestions the user must approve before
+  dalal-ticket places them live. Use when the user says "rebalance", "my portfolio drifted",
   "back to my targets", "too much in one stock".
 ---
 
 # dalal-rebalance
 
 Brings the portfolio back toward its target weights. Suggestions only:
-the user approves, then places orders by hand in their own app. Not
-financial advice.
+the user approves, then dalal-ticket places the orders live on their
+INDstocks account after their explicit yes. Not financial advice.
 
 ## Inputs
 
